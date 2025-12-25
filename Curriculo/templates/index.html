@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - Gabriel Gomes</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="photo">
+            <img src="{{ url_for('static', filename='img/foto.jpg') }}">
+        </div>
+
+        <div class="title">
+            <h1>Gabriel da Silva Gomes</h1>
+            <p>Jovem Aprendiz • Estudante</p>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="section">
+            <h2>Dados Pessoais</h2>
+            <div class="info-box">
+                <div class="card">
+                    <strong>Data de Nascimento</strong>
+                    <p>27/07/2012</p>
+                </div>
+                <div class="card">
+                    <strong>Email / Pix</strong>
+                    <p>gabriel.gomes.eng27@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Objetivo</h2>
+            <p>
+                Busco uma oportunidade como <b>Jovem Aprendiz</b> para desenvolver
+                minhas habilidades profissionais e crescer junto com a empresa.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Conhecimentos básicos em informática</li>
+                <li>Facilidade de aprendizado</li>
+                <li>Responsabilidade e organização</li>
+                <li>Boa comunicação</li>
+                <li>Interesse em tecnologia</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Educação</h2>
+            <p>
+                Ensino Fundamental em andamento.<br>
+                Interesse em curso técnico de Informática.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Ação</h2>
+            <button onclick="mensagem()">Entrar em Contato</button>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 • Currículo Online • Gabriel Gomes
+    </footer>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+              </html>
